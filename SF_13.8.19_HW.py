@@ -10,8 +10,6 @@ for i in range(ticket):
         ticket_price += 990
     elif age[i] >= 25:
         ticket_price += 1390
-    elif age[i] <= 0:
-        print('Некорректная запись возраста')
 if ticket > 3:
     print(ticket_price - ((ticket_price * 10) / 100))
 else:
